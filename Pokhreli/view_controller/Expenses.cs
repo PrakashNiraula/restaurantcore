@@ -24,26 +24,26 @@ namespace Pokhreli.view_controller
         private async void bunifuThinButton22_Click(object sender, EventArgs e)
         {
             labelstatus.Visible = true;
-            if (bunifuMaterialTextbox1.Text == "")
+            if (textBox2.Text == "")
             {
                 MessageBox.Show("Expense name is required");
                 return;
             }
 
-            if (bunifuMaterialTextbox2.Text == "")
+            if (textBox3.Text == "")
             {
                 MessageBox.Show("Expense amount required");
                 return;
             }
 
-            bool res = float.TryParse(bunifuMaterialTextbox2.Text, out amount);
+            bool res = float.TryParse(textBox3.Text, out amount);
             if (!res)
             {
                 MessageBox.Show("Invalid Amount");
                 return;
             }
 
-            expense.name = bunifuMaterialTextbox1.Text;
+            expense.name = textBox2.Text;
             expense.amount = amount;
             expense.description = textBox1.Text;
             expense.date = DateTime.Now.ToString("yyyy-MM-dd");
@@ -69,6 +69,11 @@ namespace Pokhreli.view_controller
         }
 
         private void bunifuThinButton25_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
             this.Close();
         }

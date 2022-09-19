@@ -16,5 +16,14 @@ namespace Pokhreli.view_controller
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuMetroTextbox1_OnValueChanged(object sender, EventArgs e)
+        {
+                    }
     }
 }

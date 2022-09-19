@@ -70,3 +70,39 @@ C:\Users\default.LAPTOP-SETJG6AN\Documents\Visual Studio 2015\Projects\Rajgharan
 C:\Users\default.LAPTOP-SETJG6AN\Documents\Visual Studio 2015\Projects\Rajgharana\Pokhreli\obj\Debug\HotelRajgharana.application
 C:\Users\default.LAPTOP-SETJG6AN\Documents\Visual Studio 2015\Projects\Rajgharana\Pokhreli\obj\Debug\HotelRajgharana.exe
 C:\Users\default.LAPTOP-SETJG6AN\Documents\Visual Studio 2015\Projects\Rajgharana\Pokhreli\obj\Debug\HotelRajgharana.pdb
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.csprojResolveAssemblyReference.cache
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.Properties.Resources.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.AddMyProduct.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.AddRoom.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.AddStock.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.AddTables.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.AdminPanel.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.Checkout.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.Expenses.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.Form1.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.GuestBill.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.GuestEntry.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.Home.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.Ingredients.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.MonthlyReport.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.MyTables.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.NewOrders.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.PrintBill.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.Room.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.ViewExpenses.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.ViewMyProducts.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.ViewStock.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.test.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.ViewData.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.view_controller.ViewIngredients.resources
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\Pokhreli.csproj.GenerateResource.Cache
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\bin\Debug\FoodieNepal.exe.config
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\bin\Debug\FoodieNepal.exe.manifest
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\bin\Debug\FoodieNepal.application
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\bin\Debug\FoodieNepal.exe
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\bin\Debug\FoodieNepal.pdb
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\FoodieNepal.exe.manifest
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\FoodieNepal.application
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\FoodieNepal.exe
+C:\Users\default.LAPTOP-SETJG6AN\Desktop\foodieFinal\FoodieCore\Pokhreli\obj\Debug\FoodieNepal.pdb

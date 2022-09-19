@@ -116,7 +116,7 @@ namespace Pokhreli.view_controller
             labelstatus.Text = "Status: " + number;
             if(number=="Checked out")
             {
-                bunifuThinButton22.Visible = false;
+               // bunifuThinButton22.Visible = false;
                 bunifuThinButton21.Visible = false;
                 dataGridView1.Columns[0].Visible = false;
             }
@@ -154,7 +154,7 @@ namespace Pokhreli.view_controller
             this.Close();
         }
 
-        private void bunifuThinButton23_Click(object sender, EventArgs e)
+        private void bunifuThinButton25_Click(object sender, EventArgs e)
         {
             printPreviewDialog1.Document = printDocument1;
             DialogResult result = printPreviewDialog1.ShowDialog();
@@ -194,7 +194,7 @@ namespace Pokhreli.view_controller
 
 
 
-            g.DrawString("Hotel Rajgharana", font, new SolidBrush(Color.Black), startx+200, starty);
+            g.DrawString("21stTech HMS", font, new SolidBrush(Color.Black), startx+200, starty);
             //g.DrawString("Hotel Rajgharana", font, new SolidBrush(Color.Black), offset2, starty);
 
             g.DrawString("Invoice", new Font("Times New Roman", 12), new SolidBrush(Color.Black), startx+80+200, starty+30);
@@ -415,7 +415,7 @@ namespace Pokhreli.view_controller
 
         }
 
-        private async void bunifuThinButton22_Click(object sender, EventArgs e)
+        private async void bunifuThinButton24_Click(object sender, EventArgs e)
         {
 
 
@@ -425,7 +425,7 @@ namespace Pokhreli.view_controller
             chk.billid = billno;
             chk.billtype = billtype;
             chk.ShowDialog();
-            bunifuThinButton22.Visible = false;
+            //bunifuThinButton22.Visible = false;
             dataGridView1.Columns[0].Visible = false;
 
 
@@ -497,5 +497,15 @@ namespace Pokhreli.view_controller
             }
 
         }
+
+    
+       
+      
+
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

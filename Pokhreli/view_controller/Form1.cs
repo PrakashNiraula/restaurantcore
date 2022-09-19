@@ -28,16 +28,16 @@ namespace Pokhreli
             Environment.Exit(0);
         }
 
-        private async void bunifuThinButton21_Click(object sender, EventArgs e)
+        private async void btnlogin_Click(object sender, EventArgs e)
         {
-            if (bunifuMetroTextbox1.Text == "")
+            if (textBox1.Text == "")
             {
-                bunifuMetroTextbox1.Focus();
+                textBox1.Focus();
                 return;
             }
-            if (bunifuMetroTextbox2.Text == "")
+            if (textBox2.Text == "")
             {
-                bunifuMetroTextbox2.Focus();
+                textBox2.Focus();
                 return;
             }
 
@@ -59,10 +59,6 @@ namespace Pokhreli
                 MessageBox.Show("Invalid Credentials");
                 labelstatus.Visible = false;
             }
-
-
-
-
             
 
         }
@@ -72,7 +68,7 @@ namespace Pokhreli
         {
             String[] names = new String[6];
 
-            string query = "select * from user where username='" + bunifuMetroTextbox1.Text + "' and password='" + bunifuMetroTextbox2.Text + "'";
+            string query = "select * from user where username='" + textBox1.Text + "' and password='" + textBox2.Text + "'";
             try
             {
                 DataTable res = db.GetDataTable(query);
@@ -99,5 +95,6 @@ namespace Pokhreli
 
 
         }
+
     }
 }

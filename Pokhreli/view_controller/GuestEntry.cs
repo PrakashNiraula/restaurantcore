@@ -116,7 +116,7 @@ namespace Pokhreli.view_controller
             {
                 MessageBox.Show("Successfully Saved");
                 labelsaving.Visible = false;
-                bunifuThinButton22.Visible = false;
+                //bunifuThinButton22.Visible = false;
             }
 
 
@@ -265,7 +265,9 @@ namespace Pokhreli.view_controller
 
         }
 
+        private void bunifuCustomLabel13_Click(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }

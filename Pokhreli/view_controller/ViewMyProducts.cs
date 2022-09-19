@@ -30,7 +30,7 @@ namespace Pokhreli.view_controller
 
         }
 
-        private async void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private async void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex>=0)
             {
@@ -69,6 +69,8 @@ namespace Pokhreli.view_controller
         {
             AddMyProduct amp = new AddMyProduct();
             amp.ShowDialog();
+            getProducts();
+
         }
 
 
@@ -86,5 +88,12 @@ namespace Pokhreli.view_controller
             ViewIngredients vig = new ViewIngredients(myProducts);
             vig.ShowDialog();
         }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+       
     }
 }

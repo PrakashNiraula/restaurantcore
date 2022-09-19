@@ -32,24 +32,32 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.bunifuTileButton9 = new Bunifu.Framework.UI.BunifuTileButton();
             this.highliter = new System.Windows.Forms.Panel();
-            this.bunifuTileButton4 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.bunifuTileButton5 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton6 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton7 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.bunifuTileButton8 = new Bunifu.Framework.UI.BunifuTileButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton8 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton4 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton9 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton10 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton5 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton7 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton6 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -71,21 +79,22 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(941, 760);
             this.panel4.TabIndex = 2;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(228)))), ((int)(((byte)(228)))));
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel3.Controls.Add(this.highliter);
-            this.panel3.Controls.Add(this.bunifuTileButton4);
-            this.panel3.Controls.Add(this.bunifuTileButton3);
-            this.panel3.Controls.Add(this.bunifuTileButton2);
-            this.panel3.Controls.Add(this.bunifuTileButton1);
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.bunifuTileButton5);
-            this.panel3.Controls.Add(this.bunifuTileButton6);
-            this.panel3.Controls.Add(this.bunifuTileButton7);
-            this.panel3.Controls.Add(this.bunifuTileButton8);
-            this.panel3.Controls.Add(this.bunifuTileButton9);
+            this.panel3.Controls.Add(this.bunifuImageButton2);
+            this.panel3.Controls.Add(this.bunifuImageButton8);
+            this.panel3.Controls.Add(this.bunifuImageButton4);
+            this.panel3.Controls.Add(this.bunifuImageButton9);
+            this.panel3.Controls.Add(this.bunifuImageButton3);
+            this.panel3.Controls.Add(this.bunifuImageButton10);
+            this.panel3.Controls.Add(this.bunifuImageButton5);
+            this.panel3.Controls.Add(this.bunifuImageButton7);
+            this.panel3.Controls.Add(this.bunifuImageButton6);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 35);
             this.panel3.Name = "panel3";
@@ -93,218 +102,179 @@
             this.panel3.TabIndex = 1;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // bunifuTileButton9
-            // 
-            this.bunifuTileButton9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton9.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton9.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton9.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton9.Image = global::Pokhreli.Properties.Resources.icons8_watch_tv_80;
-            this.bunifuTileButton9.ImagePosition = 20;
-            this.bunifuTileButton9.ImageZoom = 40;
-            this.bunifuTileButton9.LabelPosition = 41;
-            this.bunifuTileButton9.LabelText = "Tables";
-            this.bunifuTileButton9.Location = new System.Drawing.Point(3, 300);
-            this.bunifuTileButton9.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton9.Name = "bunifuTileButton9";
-            this.bunifuTileButton9.Size = new System.Drawing.Size(219, 59);
-            this.bunifuTileButton9.TabIndex = 12;
-            this.bunifuTileButton9.Click += new System.EventHandler(this.bunifuTileButton9_Click);
-            // 
             // highliter
             // 
-            this.highliter.BackColor = System.Drawing.Color.Black;
-            this.highliter.Location = new System.Drawing.Point(131, 91);
+            this.highliter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(175)))), ((int)(((byte)(207)))));
+            this.highliter.Location = new System.Drawing.Point(-2, 144);
             this.highliter.Name = "highliter";
-            this.highliter.Size = new System.Drawing.Size(89, 10);
+            this.highliter.Size = new System.Drawing.Size(216, 10);
             this.highliter.TabIndex = 0;
             // 
-            // bunifuTileButton4
+            // bunifuImageButton2
             // 
-            this.bunifuTileButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton4.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton4.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton4.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton4.Image = global::Pokhreli.Properties.Resources.icons8_billing_machine_100;
-            this.bunifuTileButton4.ImagePosition = 20;
-            this.bunifuTileButton4.ImageZoom = 50;
-            this.bunifuTileButton4.LabelPosition = 41;
-            this.bunifuTileButton4.LabelText = "Bill";
-            this.bunifuTileButton4.Location = new System.Drawing.Point(4, 521);
-            this.bunifuTileButton4.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton4.Name = "bunifuTileButton4";
-            this.bunifuTileButton4.Size = new System.Drawing.Size(219, 55);
-            this.bunifuTileButton4.TabIndex = 7;
-            this.bunifuTileButton4.Click += new System.EventHandler(this.bunifuTileButton4_Click);
+            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton2.ErrorImage = null;
+            this.bunifuImageButton2.Image = global::FoodieCore.Properties.Resources.home1;
+            this.bunifuImageButton2.ImageActive = null;
+            this.bunifuImageButton2.InitialImage = null;
+            this.bunifuImageButton2.Location = new System.Drawing.Point(0, 144);
+            this.bunifuImageButton2.Name = "bunifuImageButton2";
+            this.bunifuImageButton2.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton2.TabIndex = 22;
+            this.bunifuImageButton2.TabStop = false;
+            this.bunifuImageButton2.Zoom = 10;
+            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
             // 
-            // bunifuTileButton3
+            // bunifuImageButton8
             // 
-            this.bunifuTileButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton3.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton3.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton3.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton3.Image = global::Pokhreli.Properties.Resources.icons8_view_100;
-            this.bunifuTileButton3.ImagePosition = 20;
-            this.bunifuTileButton3.ImageZoom = 40;
-            this.bunifuTileButton3.LabelPosition = 41;
-            this.bunifuTileButton3.LabelText = "View";
-            this.bunifuTileButton3.Location = new System.Drawing.Point(1, 660);
-            this.bunifuTileButton3.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton3.Name = "bunifuTileButton3";
-            this.bunifuTileButton3.Size = new System.Drawing.Size(219, 54);
-            this.bunifuTileButton3.TabIndex = 6;
-            this.bunifuTileButton3.Click += new System.EventHandler(this.bunifuTileButton3_Click);
+            this.bunifuImageButton8.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton8.ErrorImage = null;
+            this.bunifuImageButton8.Image = global::FoodieCore.Properties.Resources.GUESTBILL;
+            this.bunifuImageButton8.ImageActive = null;
+            this.bunifuImageButton8.InitialImage = null;
+            this.bunifuImageButton8.Location = new System.Drawing.Point(0, 558);
+            this.bunifuImageButton8.Name = "bunifuImageButton8";
+            this.bunifuImageButton8.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton8.TabIndex = 28;
+            this.bunifuImageButton8.TabStop = false;
+            this.bunifuImageButton8.Zoom = 10;
+            this.bunifuImageButton8.Click += new System.EventHandler(this.bunifuImageButton8_Click);
             // 
-            // bunifuTileButton2
+            // bunifuImageButton4
             // 
-            this.bunifuTileButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton2.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton2.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton2.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton2.Image = global::Pokhreli.Properties.Resources.icons8_reception_80;
-            this.bunifuTileButton2.ImagePosition = 20;
-            this.bunifuTileButton2.ImageZoom = 50;
-            this.bunifuTileButton2.LabelPosition = 41;
-            this.bunifuTileButton2.LabelText = "Guest";
-            this.bunifuTileButton2.Location = new System.Drawing.Point(1, 448);
-            this.bunifuTileButton2.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton2.Name = "bunifuTileButton2";
-            this.bunifuTileButton2.Size = new System.Drawing.Size(219, 58);
-            this.bunifuTileButton2.TabIndex = 5;
-            this.bunifuTileButton2.Click += new System.EventHandler(this.bunifuTileButton2_Click);
+            this.bunifuImageButton4.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton4.ErrorImage = null;
+            this.bunifuImageButton4.Image = global::FoodieCore.Properties.Resources.product1;
+            this.bunifuImageButton4.ImageActive = null;
+            this.bunifuImageButton4.InitialImage = null;
+            this.bunifuImageButton4.Location = new System.Drawing.Point(0, 282);
+            this.bunifuImageButton4.Name = "bunifuImageButton4";
+            this.bunifuImageButton4.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton4.TabIndex = 24;
+            this.bunifuImageButton4.TabStop = false;
+            this.bunifuImageButton4.Zoom = 10;
+            this.bunifuImageButton4.Click += new System.EventHandler(this.bunifuImageButton4_Click);
             // 
-            // bunifuTileButton1
+            // bunifuImageButton9
             // 
-            this.bunifuTileButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton1.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton1.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton1.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton1.Image = global::Pokhreli.Properties.Resources.icons8_house_96;
-            this.bunifuTileButton1.ImagePosition = 20;
-            this.bunifuTileButton1.ImageZoom = 50;
-            this.bunifuTileButton1.LabelPosition = 41;
-            this.bunifuTileButton1.LabelText = "Home";
-            this.bunifuTileButton1.Location = new System.Drawing.Point(3, 91);
-            this.bunifuTileButton1.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton1.Name = "bunifuTileButton1";
-            this.bunifuTileButton1.Size = new System.Drawing.Size(219, 56);
-            this.bunifuTileButton1.TabIndex = 4;
-            this.bunifuTileButton1.Click += new System.EventHandler(this.bunifuTileButton1_Click);
+            this.bunifuImageButton9.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton9.ErrorImage = null;
+            this.bunifuImageButton9.Image = global::FoodieCore.Properties.Resources.expenses;
+            this.bunifuImageButton9.ImageActive = null;
+            this.bunifuImageButton9.InitialImage = null;
+            this.bunifuImageButton9.Location = new System.Drawing.Point(0, 627);
+            this.bunifuImageButton9.Name = "bunifuImageButton9";
+            this.bunifuImageButton9.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton9.TabIndex = 29;
+            this.bunifuImageButton9.TabStop = false;
+            this.bunifuImageButton9.Zoom = 10;
+            this.bunifuImageButton9.Click += new System.EventHandler(this.bunifuImageButton9_Click);
             // 
-            // panel5
+            // bunifuImageButton3
             // 
-            this.panel5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(220, 82);
-            this.panel5.TabIndex = 0;
+            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton3.ErrorImage = null;
+            this.bunifuImageButton3.Image = global::FoodieCore.Properties.Resources.ingredent1;
+            this.bunifuImageButton3.ImageActive = null;
+            this.bunifuImageButton3.InitialImage = null;
+            this.bunifuImageButton3.Location = new System.Drawing.Point(0, 213);
+            this.bunifuImageButton3.Name = "bunifuImageButton3";
+            this.bunifuImageButton3.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton3.TabIndex = 23;
+            this.bunifuImageButton3.TabStop = false;
+            this.bunifuImageButton3.Zoom = 10;
+            this.bunifuImageButton3.Click += new System.EventHandler(this.bunifuImageButton3_Click);
             // 
-            // bunifuTileButton5
+            // bunifuImageButton10
             // 
-            this.bunifuTileButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton5.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton5.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton5.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton5.Image = global::Pokhreli.Properties.Resources.icons8_watch_tv_80;
-            this.bunifuTileButton5.ImagePosition = 20;
-            this.bunifuTileButton5.ImageZoom = 40;
-            this.bunifuTileButton5.LabelPosition = 41;
-            this.bunifuTileButton5.LabelText = "Rooms";
-            this.bunifuTileButton5.Location = new System.Drawing.Point(1, 374);
-            this.bunifuTileButton5.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton5.Name = "bunifuTileButton5";
-            this.bunifuTileButton5.Size = new System.Drawing.Size(219, 59);
-            this.bunifuTileButton5.TabIndex = 8;
-            this.bunifuTileButton5.Click += new System.EventHandler(this.bunifuTileButton5_Click);
+            this.bunifuImageButton10.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton10.ErrorImage = null;
+            this.bunifuImageButton10.Image = global::FoodieCore.Properties.Resources.view;
+            this.bunifuImageButton10.ImageActive = null;
+            this.bunifuImageButton10.InitialImage = null;
+            this.bunifuImageButton10.Location = new System.Drawing.Point(0, 696);
+            this.bunifuImageButton10.Name = "bunifuImageButton10";
+            this.bunifuImageButton10.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton10.TabIndex = 30;
+            this.bunifuImageButton10.TabStop = false;
+            this.bunifuImageButton10.Zoom = 10;
+            this.bunifuImageButton10.Click += new System.EventHandler(this.bunifuImageButton10_Click);
             // 
-            // bunifuTileButton6
+            // bunifuImageButton5
             // 
-            this.bunifuTileButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton6.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton6.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton6.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton6.Image = global::Pokhreli.Properties.Resources.icons8_view_100;
-            this.bunifuTileButton6.ImagePosition = 20;
-            this.bunifuTileButton6.ImageZoom = 40;
-            this.bunifuTileButton6.LabelPosition = 41;
-            this.bunifuTileButton6.LabelText = "Ingredients";
-            this.bunifuTileButton6.Location = new System.Drawing.Point(3, 162);
-            this.bunifuTileButton6.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton6.Name = "bunifuTileButton6";
-            this.bunifuTileButton6.Size = new System.Drawing.Size(219, 54);
-            this.bunifuTileButton6.TabIndex = 9;
-            this.bunifuTileButton6.Click += new System.EventHandler(this.bunifuTileButton6_Click);
+            this.bunifuImageButton5.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton5.ErrorImage = null;
+            this.bunifuImageButton5.Image = global::FoodieCore.Properties.Resources.room11;
+            this.bunifuImageButton5.ImageActive = null;
+            this.bunifuImageButton5.InitialImage = null;
+            this.bunifuImageButton5.Location = new System.Drawing.Point(0, 351);
+            this.bunifuImageButton5.Name = "bunifuImageButton5";
+            this.bunifuImageButton5.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton5.TabIndex = 25;
+            this.bunifuImageButton5.TabStop = false;
+            this.bunifuImageButton5.Zoom = 10;
+            this.bunifuImageButton5.Click += new System.EventHandler(this.bunifuImageButton5_Click);
             // 
-            // bunifuTileButton7
+            // bunifuImageButton7
             // 
-            this.bunifuTileButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton7.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton7.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton7.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton7.Image = global::Pokhreli.Properties.Resources.icons8_view_100;
-            this.bunifuTileButton7.ImagePosition = 20;
-            this.bunifuTileButton7.ImageZoom = 40;
-            this.bunifuTileButton7.LabelPosition = 41;
-            this.bunifuTileButton7.LabelText = "Product";
-            this.bunifuTileButton7.Location = new System.Drawing.Point(1, 231);
-            this.bunifuTileButton7.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton7.Name = "bunifuTileButton7";
-            this.bunifuTileButton7.Size = new System.Drawing.Size(219, 54);
-            this.bunifuTileButton7.TabIndex = 10;
-            this.bunifuTileButton7.Click += new System.EventHandler(this.bunifuTileButton7_Click);
+            this.bunifuImageButton7.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton7.ErrorImage = null;
+            this.bunifuImageButton7.Image = global::FoodieCore.Properties.Resources.table1;
+            this.bunifuImageButton7.ImageActive = null;
+            this.bunifuImageButton7.InitialImage = null;
+            this.bunifuImageButton7.Location = new System.Drawing.Point(-2, 489);
+            this.bunifuImageButton7.Name = "bunifuImageButton7";
+            this.bunifuImageButton7.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton7.TabIndex = 27;
+            this.bunifuImageButton7.TabStop = false;
+            this.bunifuImageButton7.Zoom = 10;
+            this.bunifuImageButton7.Click += new System.EventHandler(this.bunifuImageButton7_Click);
             // 
-            // bunifuTileButton8
+            // bunifuImageButton6
             // 
-            this.bunifuTileButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton8.color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuTileButton8.colorActive = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(159)))), ((int)(((byte)(217)))));
-            this.bunifuTileButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTileButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F);
-            this.bunifuTileButton8.ForeColor = System.Drawing.Color.White;
-            this.bunifuTileButton8.Image = global::Pokhreli.Properties.Resources.icons8_view_100;
-            this.bunifuTileButton8.ImagePosition = 20;
-            this.bunifuTileButton8.ImageZoom = 40;
-            this.bunifuTileButton8.LabelPosition = 41;
-            this.bunifuTileButton8.LabelText = "Expense";
-            this.bunifuTileButton8.Location = new System.Drawing.Point(1, 591);
-            this.bunifuTileButton8.Margin = new System.Windows.Forms.Padding(6);
-            this.bunifuTileButton8.Name = "bunifuTileButton8";
-            this.bunifuTileButton8.Size = new System.Drawing.Size(219, 54);
-            this.bunifuTileButton8.TabIndex = 11;
-            this.bunifuTileButton8.Click += new System.EventHandler(this.bunifuTileButton8_Click);
+            this.bunifuImageButton6.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.bunifuImageButton6.ErrorImage = null;
+            this.bunifuImageButton6.Image = global::FoodieCore.Properties.Resources.guestentry1;
+            this.bunifuImageButton6.ImageActive = null;
+            this.bunifuImageButton6.InitialImage = null;
+            this.bunifuImageButton6.Location = new System.Drawing.Point(-2, 420);
+            this.bunifuImageButton6.Name = "bunifuImageButton6";
+            this.bunifuImageButton6.Size = new System.Drawing.Size(219, 63);
+            this.bunifuImageButton6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton6.TabIndex = 26;
+            this.bunifuImageButton6.TabStop = false;
+            this.bunifuImageButton6.Zoom = 10;
+            this.bunifuImageButton6.Click += new System.EventHandler(this.bunifuImageButton6_Click);
             // 
-            // panel2
+            // bunifuDragControl1
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel2.Controls.Add(this.bunifuImageButton1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1161, 35);
-            this.panel2.TabIndex = 0;
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.panel2;
+            this.bunifuDragControl1.Vertical = true;
             // 
             // bunifuImageButton1
             // 
             this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.bunifuImageButton1.Image = global::Pokhreli.Properties.Resources.icons8_delete_160;
+            this.bunifuImageButton1.Image = global::FoodieCore.Properties.Resources.closebtn;
             this.bunifuImageButton1.ImageActive = null;
             this.bunifuImageButton1.Location = new System.Drawing.Point(1116, 0);
             this.bunifuImageButton1.Name = "bunifuImageButton1";
@@ -315,12 +285,17 @@
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
-            // bunifuDragControl1
+            // panel2
             // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this.panel2;
-            this.bunifuDragControl1.Vertical = true;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(175)))), ((int)(((byte)(207)))));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.bunifuImageButton1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1161, 35);
+            this.panel2.TabIndex = 0;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // AdminPanel
             // 
@@ -335,8 +310,17 @@
             this.Load += new System.EventHandler(this.AdminPanel_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -344,21 +328,20 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private System.Windows.Forms.Panel panel5;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton1;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton4;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton3;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton2;
         private System.Windows.Forms.Panel highliter;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton5;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton6;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton7;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton8;
-        private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton9;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton7;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton6;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton5;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton4;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton3;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton8;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton9;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton10;
+        private System.Windows.Forms.Panel panel2;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
     }
 }

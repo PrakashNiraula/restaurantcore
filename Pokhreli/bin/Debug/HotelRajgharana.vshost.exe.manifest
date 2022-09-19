@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HotelRajgharana.exe" size="549376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HotelRajgharana.exe" size="547840">
       <assemblyIdentity name="HotelRajgharana" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EGi3WZp0a4XMjTdAzuRWc/TZJy2FGXtbftbkpC6H2Ak=</dsig:DigestValue>
+        <dsig:DigestValue>kywzy9ndGhEdcBBXysvBbTHHO4zuyCtp9dfgad3eh5c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

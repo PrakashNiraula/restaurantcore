@@ -39,7 +39,7 @@ namespace Pokhreli.view_controller
             Task<DataTable> getallguests = new Task<DataTable>(ge.getallguests);
             getallguests.Start();
             guestlist = await getallguests;
-            bunifuTileButton1.LabelText = "Guest: " + guestlist.Rows.Count;
+            bunifuTileButton1.LabelText =guestlist.Rows.Count+"";
 
 
             //sales tooday
@@ -47,12 +47,13 @@ namespace Pokhreli.view_controller
             Task<DataTable> loadbill = new Task<DataTable>(be.getdata);
             loadbill.Start();
             DataTable res = await loadbill;
+            dataGridView2.DataSource =await loadbill;
             float total=0;
             foreach(DataRow dr in res.Rows)
             {
                 total = total + float.Parse(dr["total"].ToString()) + float.Parse(dr["service_charge"].ToString()) + float.Parse(dr["vat"].ToString());
             }
-            bunifuTileButton3.LabelText = "Sales Today: " + total;
+            bunifuTileButton3.LabelText = total+"";
 
 
             //purchase today
@@ -67,7 +68,7 @@ namespace Pokhreli.view_controller
                 total2 += float.Parse(dr["cost"].ToString());
 
             }
-            bunifuTileButton4.LabelText = "Purchase Today: " + total2; 
+            bunifuTileButton4.LabelText =total2+""; 
 
 
 
@@ -86,20 +87,22 @@ namespace Pokhreli.view_controller
                 total3 += float.Parse(dr["amount"].ToString());
 
             }
-            bunifuTileButton5.LabelText = "Expense Today: " + total3;
+            bunifuTileButton5.LabelText =total3+"";
 
 
 
             Task<DataTable> alltables = new Task<DataTable>(tables.getalltables);
             alltables.Start();
             var result = await alltables;
-            totaltables.Text = "Total: " + result.Rows.Count;
+            //totaltables.Text = "Total: " + result.Rows.Count;
 
             Task<DataTable> emptytables = new Task<DataTable>(tables.getemptytables);
             emptytables.Start();
             var result2 = await emptytables;
-            emptytableslabel.Text = "Empty: "+result2.Rows.Count;
-            filledtables.Text = "Filled: " + (result.Rows.Count - result2.Rows.Count);
+           label3.Text = result2.Rows.Count+"";
+            label2.Text = (result.Rows.Count - result2.Rows.Count) + "";
+
+            //filledtables.Text = "Filled: " + (result.Rows.Count - result2.Rows.Count);
 
 
 
@@ -115,6 +118,21 @@ namespace Pokhreli.view_controller
         {
             NewOrders no = new NewOrders();
             no.ShowDialog();
+        }
+
+        private void bunifuTileButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTileButton5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

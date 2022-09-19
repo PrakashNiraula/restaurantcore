@@ -28,22 +28,22 @@ namespace Pokhreli.view_controller
 
         }
 
-        private async void bunifuThinButton21_Click(object sender, EventArgs e)
+        private async void bunifuThinButton26_Click(object sender, EventArgs e)
         {
-            if (txtname.Text == "" | txtname.Text == " ")
+            if (textBox2.Text == "" | textBox2.Text == " ")
             {
                 labelstatus.Text = "Product name is required";
-                txtname.Focus();
+                textBox2.Focus();
                 return;
             }
 
-            if (txtPrice.Text == "" | txtPrice.Text == " ")
+            if (textBox3.Text == "" | textBox3.Text == " ")
             {
                 labelstatus.Text = "Sales price is required";
-                txtPrice.Focus();
+                textBox3.Focus();
                 return;
             }
-            products.query = "insert into myproducts values(Null,'" + txtname.Text + "','" + txtPrice.Text + "','1')";
+            products.query = "insert into myproducts values(Null,'" + textBox2.Text + "','" + textBox3.Text + "','1')";
             Task<int> addrecord = new Task<int>(products.addrecord);
             addrecord.Start();
             if (await addrecord == 1)
@@ -143,24 +143,6 @@ namespace Pokhreli.view_controller
 
             return true;
 
-
-
-
-
-        }
-
-        private async void bunifuThinButton24_Click(object sender, EventArgs e)
-        {
-            labelstatus.Text = "Saving .......";
-            Task<bool> savedata = new Task<bool>(addingredients);
-            savedata.Start();
-            bool res = await savedata;
-            if (res)
-            {
-                labelstatus.Text = "Successfully Saved";
-            }
-
-
         }
 
 
@@ -193,5 +175,27 @@ namespace Pokhreli.view_controller
                 }
             }
         }
+
+      
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private async void bunifuThinButton24_Click(object sender, EventArgs e)
+        {
+            labelstatus.Text = "Saving .......";
+            Task<bool> savedata = new Task<bool>(addingredients);
+            savedata.Start();
+            bool res = await savedata;
+            if (res)
+            {
+                labelstatus.Text = "Successfully Saved";
+                this.Close();
+            }
+
+        }
+
+        
     }
 }

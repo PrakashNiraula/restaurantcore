@@ -63,7 +63,8 @@ namespace Pokhreli.module
         {
             try
             {
-                return db.ExecuteQuery(insertquery);
+                int res= db.ExecuteQuery(insertquery);
+                return res;
             }
             catch(Exception ex)
             {

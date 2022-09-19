@@ -88,7 +88,7 @@ namespace Pokhreli.view_controller
 
         private async void GuestBill_Load(object sender, EventArgs e)
         {
-            labeldate.Text = "Date: " + DateTime.Now.ToString("yyyy-MM-dd");
+           // labeldate.Text = "Date: " + DateTime.Now.ToString("yyyy-MM-dd");
             panel3.Visible = false;
             labelstatus.Visible = false;
             Task<DataTable> getallguest = new Task<DataTable>(ge.getallguests);
@@ -408,7 +408,7 @@ namespace Pokhreli.view_controller
         }
 
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0 && e.ColumnIndex == 0)
             {
@@ -589,5 +589,17 @@ namespace Pokhreli.view_controller
         {
 
         }
+
+        private void bunifuCustomLabel16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
 }

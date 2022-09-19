@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Pokhreli.view_controller;
 using System.Threading;
+//using FoodieCore.view_controller;
 
 namespace Pokhreli.view_controller
 {
@@ -53,7 +54,7 @@ namespace Pokhreli.view_controller
             {
                 Home h = new Home();
               // bunifuTileButton1.BackColor=Color.CornflowerBlue;
-                highliter.Top = bunifuTileButton1.Top;
+                highliter.Top = bunifuImageButton2.Top;
                 h.TopLevel = false;
                 panel4.Controls.Add(h);
                 h.Dock = DockStyle.Fill;
@@ -64,7 +65,7 @@ namespace Pokhreli.view_controller
             else if (name == "GuestBill")
             {
                 GuestBill gb = new GuestBill();
-                highliter.Top = bunifuTileButton4.Top;
+                highliter.Top = bunifuImageButton8.Top;
                 // bunifuTileButton4.BackColor = Color.CornflowerBlue;
                 gb.TopLevel = false;
                 panel4.Controls.Add(gb);
@@ -72,35 +73,12 @@ namespace Pokhreli.view_controller
                 gb.Show();
 
             }
-            else if (name == "GuestEntry")
-
-            {
-                GuestEntry ge = new GuestEntry();
-                //bunifuTileButton2.BackColor = Color.CornflowerBlue;
-                highliter.Top = bunifuTileButton2.Top;
-                ge.TopLevel = false;
-                panel4.Controls.Add(ge);
-                ge.Dock = DockStyle.Fill;
-                ge.Show();
-
-
-            }else if(name=="Room"){
-                Room room = new Room();
-               // bunifuTileButton5.BackColor = Color.CornflowerBlue;
-                highliter.Top = bunifuTileButton5.Top;
-                room.TopLevel = false;
-                panel4.Controls.Add(room);
-                room.Dock = DockStyle.Fill;
-                room.Show();
-
-
-            }
             else if (name == "Stock")
             {
 
                 
                 ViewStock stock = new ViewStock();
-                highliter.Top = bunifuTileButton6.Top;
+                highliter.Top = bunifuImageButton3.Top;
                 stock.TopLevel = false;
                 panel4.Controls.Add(stock);
                 stock.Dock = DockStyle.Fill;
@@ -114,7 +92,7 @@ namespace Pokhreli.view_controller
 
 
                 ViewMyProducts prod = new ViewMyProducts();
-                highliter.Top = bunifuTileButton7.Top;
+                highliter.Top = bunifuImageButton4.Top;
                 prod.TopLevel = false;
                 panel4.Controls.Add(prod);
                 prod.Dock = DockStyle.Fill;
@@ -128,7 +106,7 @@ namespace Pokhreli.view_controller
 
 
                 ViewExpenses exp = new ViewExpenses();
-                highliter.Top = bunifuTileButton8.Top;
+                highliter.Top = bunifuImageButton9.Top;
                 exp.TopLevel = false;
                 panel4.Controls.Add(exp);
                 exp.Dock = DockStyle.Fill;
@@ -142,7 +120,35 @@ namespace Pokhreli.view_controller
 
 
                 MyTables exp = new MyTables();
-                highliter.Top = bunifuTileButton9.Top;
+                highliter.Top = bunifuImageButton7.Top;
+                exp.TopLevel = false;
+                panel4.Controls.Add(exp);
+                exp.Dock = DockStyle.Fill;
+                exp.Show();
+
+
+
+            }
+            else if (name == "Rooms")
+            {
+
+
+                Room exp = new Room();
+                highliter.Top = bunifuImageButton5.Top;
+                exp.TopLevel = false;
+                panel4.Controls.Add(exp);
+                exp.Dock = DockStyle.Fill;
+                exp.Show();
+
+
+
+            }
+            else if (name == "Guestentry")
+            {
+
+
+                GuestEntry exp = new GuestEntry();
+                highliter.Top = bunifuImageButton6.Top;
                 exp.TopLevel = false;
                 panel4.Controls.Add(exp);
                 exp.Dock = DockStyle.Fill;
@@ -156,7 +162,7 @@ namespace Pokhreli.view_controller
             {
                 ViewData vd = new ViewData();
                // bunifuTileButton4.BackColor = Color.CornflowerBlue; ;
-                highliter.Top = bunifuTileButton3.Top;
+                highliter.Top = bunifuImageButton10.Top;
                 vd.TopLevel = false;
                 panel4.Controls.Add(vd);
                 vd.Dock = DockStyle.Fill;
@@ -173,11 +179,7 @@ namespace Pokhreli.view_controller
 
         }
 
-        private void bunifuTileButton2_Click(object sender, EventArgs e)
-        {
-            loadpanel("GuestEntry");
-
-        }
+      
 
         private void bunifuTileButton4_Click(object sender, EventArgs e)
         {
@@ -221,6 +223,72 @@ namespace Pokhreli.view_controller
         private void bunifuTileButton9_Click(object sender, EventArgs e)
         {
             loadpanel("Tables");
+        }
+
+        private void bunifuTileButton2_Click_1(object sender, EventArgs e)
+        {
+            loadpanel("Guestentry");
+        }
+
+        private void bunifuTileButton5_Click_1(object sender, EventArgs e)
+        {
+            loadpanel("Rooms");
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            loadpanel("Home");
+        }
+
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            loadpanel("Stock");
+
+        }
+
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
+        {
+            loadpanel("Product");
+        }
+
+        private void bunifuImageButton5_Click(object sender, EventArgs e)
+        {
+            loadpanel("Rooms");
+        }
+
+        private void bunifuImageButton6_Click(object sender, EventArgs e)
+        {
+            loadpanel("Guestentry");
+        }
+
+        private void bunifuImageButton7_Click(object sender, EventArgs e)
+        {
+            loadpanel("Tables");
+        }
+
+        private void bunifuImageButton8_Click(object sender, EventArgs e)
+        {
+            loadpanel("GuestBill");
+        }
+
+        private void bunifuImageButton9_Click(object sender, EventArgs e)
+        {
+            loadpanel("Expenses");
+        }
+
+        private void bunifuImageButton10_Click(object sender, EventArgs e)
+        {
+            loadpanel("View");
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

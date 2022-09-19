@@ -266,6 +266,11 @@ namespace Pokhreli.view_controller
 
             //File.WriteAllLines("excel.csv", lines);
         }
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 
 }

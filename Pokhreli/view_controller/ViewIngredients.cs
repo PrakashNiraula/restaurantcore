@@ -27,7 +27,7 @@ namespace Pokhreli.view_controller
             productlist = productss;
             ingredientlist = new DataTable();
             panel2.Visible = false;
-            panel3.Visible = false;
+            //panel3.Visible = false;
            
 
         }
@@ -116,9 +116,9 @@ namespace Pokhreli.view_controller
                 {
                     recordid = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["record_id"].Value);
 
-                    panel3.Visible = true;
-                    panel3.Location = new Point(200,100);
-                    label3.Text = "Used Amount in ("+dataGridView1.Rows[e.RowIndex].Cells["unit"].Value.ToString()+")";
+                    //panel3.Visible = true;
+                    //panel3.Location = new Point(200,100);
+                    //label3.Text = "Used Amount in ("+dataGridView1.Rows[e.RowIndex].Cells["unit"].Value.ToString()+")";
                 }
             }
         }
@@ -171,37 +171,42 @@ namespace Pokhreli.view_controller
 
         private void bunifuThinButton25_Click(object sender, EventArgs e)
         {
-            panel3.Visible = false;
+          //  panel3.Visible = false;
            
         }
 
         private async void bunifuThinButton24_Click(object sender, EventArgs e)
         {
 
-            if (textBox2.Text == "")
-            {
-                MessageBox.Show("Invalid Amount ");
-                return;
-            }
-            products.record_id = recordid;
-            products.updateamount =float.Parse(textBox2.Text);
-            Task<int> updateingredientamount = new Task<int>(products.updateamountofIngredient);
-            updateingredientamount.Start();
-            if(await updateingredientamount == 1)
-            {
-                for (int i = ingredientlist.Rows.Count - 1; i >= 0; i--)
-                {
-                    DataRow dr = ingredientlist.Rows[i];
-                    if (int.Parse(dr["record_id"].ToString()) == recordid)
-                        dr["used_amount"] = textBox2.Text;
-                    panel3.Visible = false;
+            //if (textBox2.Text == "")
+            //{
+            //    MessageBox.Show("Invalid Amount ");
+            //    return;
+            //}
+            //products.record_id = recordid;
+            //products.updateamount =float.Parse(textBox2.Text);
+            //Task<int> updateingredientamount = new Task<int>(products.updateamountofIngredient);
+            //updateingredientamount.Start();
+            //if(await updateingredientamount == 1)
+            //{
+            //    for (int i = ingredientlist.Rows.Count - 1; i >= 0; i--)
+            //    {
+            //        DataRow dr = ingredientlist.Rows[i];
+            //        if (int.Parse(dr["record_id"].ToString()) == recordid)
+            //            dr["used_amount"] = textBox2.Text;
+            //        panel3.Visible = false;
 
-                }
-                ingredientlist.AcceptChanges();
+            //    }
+            //    ingredientlist.AcceptChanges();
 
-            }
+            //}
             
 
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

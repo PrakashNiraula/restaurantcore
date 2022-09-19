@@ -51,7 +51,7 @@ namespace Pokhreli.view_controller
             loadtables();
         }
 
-        private async void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private async void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             mt.tableid = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["id"].Value);
             string command = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
@@ -82,5 +82,6 @@ namespace Pokhreli.view_controller
 
 
         }
+
     }
 }

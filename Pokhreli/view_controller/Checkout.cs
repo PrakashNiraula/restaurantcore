@@ -219,5 +219,15 @@ namespace Pokhreli.view_controller
                 return false;
             }
         }
+
+        private void bunifuCustomLabel9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

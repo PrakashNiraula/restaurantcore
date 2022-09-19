@@ -148,5 +148,10 @@ namespace Pokhreli.view_controller
             }
             return false;
         }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

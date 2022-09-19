@@ -24,7 +24,7 @@ namespace Pokhreli.view_controller
             this.dr = dr;
         }
 
-        private async void bunifuThinButton22_Click(object sender, EventArgs e)
+        private async void bunifuThinButton24_Click(object sender, EventArgs e)
         {
 
             if (textBox1.Text == "")
@@ -83,8 +83,15 @@ namespace Pokhreli.view_controller
             {
                 bunifuMaterialTextbox1.Text = dr["room_number"].ToString();
                 textBox1.Text = dr["facilities"].ToString();
-                bunifuThinButton22.ButtonText = "Update";
+               // bunifuThinButton22.ButtonText = "Update";
             }
         }
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+      
     }
 }

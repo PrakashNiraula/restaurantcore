@@ -117,35 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="Remove.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="bunifuThinButton24.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADkAAAAoCAYAAABEklK7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGqSURBVGhD7Zktj8JAEEArK5HISiQSiaxEVvIzcMj+DGRl
-        JRJZWVmJRCKRc3nTTnMNH2cuue7cvqQJKR/ZtzOz3R0S+QdESS9ESS9EycfjIVVVSVEUst1uJcsySZJk
-        FhdjYUy73U5Op5Pc7/dh1M+8lTyfz/pDCCJ6uVzker0O7/49jIUx1XUt+/1ex4rsK54kmRG+lOe53G63
-        4e78+TTuiSQfXK/Xb2ckBMjAzWYzybqJJDMRsqBBGlOvxijJDBBqLxwOBynLUl+rJKsohRtSDf4ETpRe
-        13W9JClKqnqDSBJRleRZw1LsjbZtNZoquVqtNKzeIGXTNO0lF4vFxx1DyOgOyV54JUp6IUp6IUp6YZTk
-        gcmD0yOjJJvzOZ36f5NRkiMWRy1vsFVly6qStlv3hp2uVJJUxdhbXdrpSiXheDzq5QVrpcIoSRTpizRN
-        M9wJFzocZKadrEZJoFCtZRAqCBIsmlnGRBKIJKLWBAoJ6o8IfheEJ0kgdVltmRFWqDk3uEhJqz8WmleH
-        /5eSBjPCErxcLvuH6gwvuhr2V8Y7Pkp6IUp6IUr6QOQL/DfU172dhy0AAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAALsAAAAwCAYAAABJ5wtxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHRSURBVHhe7Z0xSpxRGEUtU1paZhmWLsHSXaUIWAjpBTsL
+        QSQgaRRShFTZQLATR0ZhnBl9fu+ikwh3A/9958D5YOBOdxime1sNYBCIHYaB2GEYiB2GgdhhGIgdhuFD
+        7PdPqzZfrt8+AUyb3vJssXr79F/sPfSDs9/t87cfbevLOeLk7S3vn/5qf+cLNa7Y30N3X0CcurvH1+2u
+        fuEV+2L93LYPv9shYoKdzd8YN0BMUY3rFm6AmKIa1y3cADFFNa5buAFiimpct3ADxBTVuG7hBogpqnHd
+        wg0QU1TjuoUbIKaoxnULN0BMUY3rFm6AmKIa1y3cADFFNa5buAFiimpct3ADxBTVuG7hBogpqnHdwg0Q
+        U1TjuoUbIKaoxnULN0BMUY3rFm6AmKIa1y3cADFFNa5buAFiimpct3ADxBTVuG7hBogpqnHdwg0QU1Tj
+        uoUbIKaoxnULN0BMUY3rFm6AmKIa1y3cADFFNa5buAFiimpct3ADxBTVeD+r55f26euFHSEmuIn9brFs
+        eyc/7Qhx6vZHCforHJu/MX9uH9rO0aUdI07V/u7A1c2sLdcv/2LvPK54Twmy6A9t9NA7H2IHSIbYYRiI
+        HYaB2GEYiB0GobVXjDTQm27XRBAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuThinButton22.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAHYAAAA3CAYAAADZo77YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKhSURBVHhe7ZwhkMIwEEUrkUgkEolEIpFIJBKJxCGRSCQS
-        iUQikUgkEolE5u53upl0aQvmesnOfzN7A6T0ZnjsJmWyzRwxCcUahWKNQrFGoVijUKxRKNYoX4l9Pp9u
-        v9+76XTqxuOx6/f7LssyRkvR6/Xyz30ymbjdbucej0dhpp5Gsa/Xy61Wq8p/xvjfmM/necLVUSv2crm4
-        wWBQeVJGHIFMPp1OhbEylWK32+3bSUajUV4Gzuezu16vxZGkDW63W/65y3So3SB7NW9ikanhm7rdbn5C
-        Eg9wpNc5SLqQkljMqWH5RZZ+M1GT9sH8OpvNvKtOp+Pu93sxqsSGCyVkKqXGDRJxOBx6Z1g5C14sJMoB
-        CJbfNMD8i2wVb7KY8mJRo2UwNE/iZ7lceneykPJicfErg8zWtAgXvFgjAS82rNW8nEkPcYfIn+d/f8Fi
-        SQa4aEqP0B/wYuVFGSBpof1RrBG0P4o1gvZHsUbQ/ijWCNofxRpB+6NYI2h/FGsE7Y9ijaD9UawRtD+K
-        NYL2R7FG0P4o1gjaH8UaQfujWCNofxRrBO2PYo2g/VGsEbQ/bzHcwtjU7EPipHZrTNgBgL2qJC3CxARe
-        LPYSy8DxeCxeJSkQbvZHBx7wYtfrtR+s6t4i8RJ2R2J/OPBiUX5lEGnNcpwG6N8JO++k686LBeiukwPw
-        GG8icYPqKs5QhmVPeEmsbvBB9x2Jl8Ph4F0h8FwoiQWbzaZ0MGo2OwPiApV0sViUPOl10ZtYEJZkBK6R
-        IJzz7v+CBEPDnL43COZY/dtDpVh8I5ruFoNaXvU6428C4sIpMgx0tVf9oFQpVuCdY+INVNGmdtdGsQDZ
-        ixPgbiV13xpGe4EfknDd+mnd81EsSROKNQrFGoVijUKxRqFYkzj3A5/OE9qbqes9AAAAAElFTkSuQmCC
-</value>
-  </data>
+  <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

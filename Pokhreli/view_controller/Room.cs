@@ -48,7 +48,7 @@ namespace Pokhreli.view_controller
 
         }
 
-        private async void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private async void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
 
             room.roomid = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["id"].Value);

@@ -164,7 +164,7 @@ namespace Pokhreli.view_controller
 
 
 
-        private async void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private async void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
@@ -252,5 +252,12 @@ namespace Pokhreli.view_controller
                 executequery("purchase", DateTime.Now.ToString("yyyy-MM-dd"));
             }
         }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        
     }
 }
